@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess The Word</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+
+<div class="container">
+	<h4 id="user1">username1:0</h4>
+	<h4 id="user2">username2:0</h4>
+	<center>
+		<h2 style="color: white;">Guess The Word!</h2>
+
+		<h3 id="quser1">Question turn-</h3>
+		
+		<h3 id="auser2">Answer turn-</h3>
+		<diV id="output" class="col-lg-6"></diV>
+
+
+		<br>
+		<br>
+
+		<label>Send You Word: <b style="color: red">Try putting word which has 5 or more alphabet</b></label>
+		<input type="text" class="form-control" id="word">
+		<button class="btn-success btn" onclick="send()">Send</button> 
+
+		<br>
+
+
+	</center>
+</div>
+
+<script src="game_page.js"></script>
+</body>
+</html>
